@@ -34,7 +34,7 @@ public class Main {
         // Câu 2 C:
         System.out.println("\nCÂU 2C:");
 
-        String dateString_2 = "2023-08-08 11:30:00";
+        String dateString_2 = "2023-08-09 13:14:00";
         SimpleDateFormat dateFormat_2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date date_2 = dateFormat_1.parse(dateString_2);
 
