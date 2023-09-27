@@ -51,8 +51,10 @@ public class Order {
         if (quantity <= product.getQuantity()) {
             LineItem newLineItem = new LineItem(product, quantity);
             lineItems.add(newLineItem);
+            System.out.println("Success");
             return true;
         } else {
+            System.out.println("Fail");
             return false;
         }
     }

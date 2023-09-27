@@ -22,11 +22,11 @@ public class Main {
         order.setCustomerName("Mike Tyson");
         order.setTransactionTime(date_1);
 
-        System.out.println("Add: " + order.addProduct(tomato, 5));
+        order.addProduct(tomato, 5);
         System.out.println("Total cost of order: " + order.cost());
-        System.out.println("Add: " + order.addProduct(iPhone, 2));
+        order.addProduct(iPhone, 2);
         System.out.println("Total cost of order: " + order.cost());
-        System.out.println("Add: " + order.addProduct(football, 4));
+        order.addProduct(football, 4);
         System.out.println("Total cost of order: " + order.cost());
 
         System.out.println("Information: " + order);
@@ -43,9 +43,9 @@ public class Main {
         deliverOrder.setTransactionTime(date_2);
         deliverOrder.setAddress("123 Cau Giay");
 
-        System.out.println("Add: " + deliverOrder.addProduct(zaraShirt, 3));
+        deliverOrder.addProduct(zaraShirt, 3);
         System.out.println("Total cost of order: " + deliverOrder.cost());
-        System.out.println("Add: " + deliverOrder.addProduct(iPhone, 3));
+        deliverOrder.addProduct(iPhone, 3);
         System.out.println("Total cost of order: " + deliverOrder.cost());
 
         System.out.println("Information: " + deliverOrder);
